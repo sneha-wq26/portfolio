@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneha | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Sneha</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggleTheme">🌙</button></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Hi, I'm Sneha 👋</h2>
+      <p>Computer Science Student | Aspiring Software Developer</p>
+      <a href="Sneha_Resume.pdf" download class="btn">📄 Download Resume</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a 4th year BTech student passionate about AI, development, and solving real-world problems through technology.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div>💻 C++</div>
+      <div>🧠 Machine Learning</div>
+      <div>🌐 HTML/CSS</div>
+      <div>⚙️ JavaScript</div>
+      <div>📊 Data Structures</div>
+      <div>📱 Git & GitHub</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Task Manager</h3>
+      <p>A productivity app to manage daily tasks with local storage.</p>
+      <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+    </div>
+    <div class="project-card">
+      <h3>Blog Website</h3>
+      <p>Personal blog built using HTML, CSS, and JavaScript.</p>
+      <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p id="responseMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sneha. Made with ❤️</p>
+  </footer>
+
+</body>
+</html>
